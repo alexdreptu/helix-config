@@ -1,0 +1,43 @@
+# Author: Alexandru Dreptu <alexdreptu@gmail.com>
+
+"ui.text" = { fg = "text" }
+"ui.text.focus" = { fg = "white", bg = "selection" }
+"ui.background" = { bg = "background" }
+"ui.selection" = { fg = "black", bg = "white"  }
+"ui.selection.primary" = { fg = "white", bg = "selection" }
+"ui.cursor" = { fg = "black", bg = "white" }
+"ui.cursor.normal" = { fg = "normal", bg = "normal" }
+"ui.cursor.insert" = { fg = "insert", bg = "insert" }
+"ui.cursor.select" = { fg = "select", bg = "select" }
+"ui.cursor.match" = { fg = "white", bg = "red" }
+"ui.cursorline.primary" = { fg = "#d1d1d1", bg = "cursorline" }
+"ui.cursorline.secondary" = { fg = "", bg = "cursorline" }
+"ui.statusline" = { fg = "#d1d1d1", bg = "statusline_background" }
+"ui.statusline.inactive" = { fg = "white", bg = "statusline_background" }
+"ui.statusline.normal" = { fg = "normal" }
+"ui.statusline.insert" = { fg = "insert" }
+"ui.statusline.select" = { fg = "select" }
+"ui.statusline.separator" = { fg = "#bfff80" }
+"ui.virtual.ruler" = { fg = "#00000000", bg = "statusline_background" }
+"ui.window" = { fg = "line" }
+
+"namespace" = { fg = "#d1d1d1" }
+"modu;e" = { fg = "#d1d1d1" }
+
+[palette]
+# Editor
+text = "#ffffff"
+background = "#29282a"
+
+# UI
+selection = "#9470db"
+line = "#595959"
+ruler = "#595959"
+
+normal = "#bff986"
+insert = "#80d4ff"
+select = "#ffaa80"
+
+cursorline = "#3d3b3f"
+statusline_background = "#3a393c"
+statusline_inactive_background = "#d1d1d1"

@@ -1,0 +1,15 @@
+# [[language]]
+# name = "python"
+# language-servers = ["pyright", "ruff-lsp"]
+
+# [[language]]
+# name = "java"
+# scope = "source.java"
+# injection-regex = "java"
+# file-types = ["java"]
+# roots = ["pom.xml"]
+# language-servers = [ "jdtls" ]
+# auto-format = true
+
+# [language-server.ruff-lsp]
+# command = "ruff-lsp"

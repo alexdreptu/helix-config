@@ -1,0 +1,44 @@
+theme = "adwaita-dark"
+
+[editor]
+auto-info = false
+mouse = false
+line-number = "relative"
+cursorline = true
+cursorcolumn = true
+middle-click-paste = false
+gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+auto-completion = true
+auto-format = true
+rulers = [80, 90, 100, 120]
+insert-final-newline = true
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = ["mode", "file-name"]
+center = []
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[keys.normal]
+C-s = ":w"
+C-c = "no_op"
+C-7 = "toggle_comments"
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"
